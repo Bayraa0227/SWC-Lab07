@@ -30,6 +30,11 @@ public class DelegationSortedIntList implements IntegerList {
         return this.list.addAll(list);
     }
 
+    /**
+     * Жагсаалтад хэдэн удаа элемент нэмснийг буцаана.
+     * 
+     * @return элемент нэмсэн удаагийн тоо
+     */
     public int getTotalAdded() {
         return totalAdded;
     }

@@ -26,12 +26,17 @@ public class InheritanceSortedIntList extends SortedIntList {
     }
 
     @Override
-    public boolean addAll(IntegerList list){
+    public boolean addAll(IntegerList list) {
         // totalAdded += list.size();
         return super.addAll(list);
     }
 
-    public int getTotalAdded(){
+    /**
+     * Жагсаалтад хэдэн удаа элемент нэмснийг буцаана.
+     * 
+     * @return элемент нэмсэн удаагийн тоо
+     */
+    public int getTotalAdded() {
         return this.totalAdded;
     }
 }
